@@ -14,7 +14,7 @@ namespace restapinet.Domain.Models
         public int mood { get; set; }
         public int sleep { get; set; }
         public bool medication { get; set; }
-        public ArrayList activities { get; set; }
-        public ArrayList feelings { get; set; }
+        public List<Activities> activities { get; set; }
+        public List<Feelings> feelings { get; set; }
     }
 }
